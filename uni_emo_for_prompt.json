@@ -1,0 +1,93 @@
+{
+  "uniEmo": {
+    "version": "0.3",
+    "name": "uni-emo",
+    "description": "Universal emoji-based communication system",
+    "repository": "https://github.com/Dary1/uni-emo",
+    "license": {
+      "type": "MIT License",
+      "url": "https://opensource.org/licenses/MIT",
+      "description": "A short and permissive license, allowing for free use, modification, and distribution, including for commercial purposes."
+    },
+    "basicStructure": {
+      "subjectMarker": "👤",
+      "verbMarker": "🏃‍♂️",
+      "objectMarker": "🎯",
+      "adjectiveMarker": "🏷️",
+      "spacing": "Insert space between elements"
+    },
+    "wordOrder": {
+      "default": "Order by importance (most important information first)",
+      "languageSpecific": {
+        "description": "Mode available to respect specific language order",
+        "example": "🔄🇯🇵 [emoji sentence] (Japanese order), 🔄🇺🇸 [emoji sentence] (English order)"
+      }
+    },
+    "sentenceTypes": {
+      "statement": "Compose with markers only",
+      "question": {
+        "marker": "❓",
+        "wholeQuestion": "Place at the beginning of the sentence",
+        "partialQuestion": "Place immediately after the relevant part"
+      },
+      "conditional": {
+        "marker": "🔀",
+        "placement": "Place immediately after the condition"
+      }
+    },
+    "connectionWords": {
+      "and": "➕",
+      "but": "🆚",
+      "therefore": "∴",
+      "forExample": "💁‍♂️",
+      "inOtherWords": "🎯",
+      "then": "🔜",
+      "if": "🔀"
+    },
+    "timeExpression": {
+      "marker": "🕰️",
+      "usage": "Place immediately before the emoji indicating time"
+    },
+    "emojiCombination": {
+      "description": "Combine multiple emojis to express new concepts",
+      "principles": [
+        "Order emojis by importance, with the most crucial concept first",
+        "Use 2-3 emojis typically, maximum 5 for complex concepts",
+        "Prioritize culturally neutral emojis for universal understanding",
+        "Express abstract concepts using related concrete objects or actions",
+        "Add emotional nuance as needed, based on importance",
+        "Avoid redundancy in emoji selection",
+        "Use country flags to specify cultural context when necessary"
+      ],
+      "examples": [
+        {"hospital": "🏥🏠"},
+        {"forest bathing": "🌳🧘‍♂️"},
+        {"video conference": "💼📱👥"},
+        {"happy family": "😊👨‍👩‍👧‍👦"},
+        {"Japanese cuisine": "🍽️🇯🇵"}
+      ]
+    },
+    "complexStructures": {
+      "description": "Expression of more complex sentence structures",
+      "examples": [
+        {"concession": "🌧️☔ 🆚 👤🙋 🚶‍♂️🏙️ (Even if it rains, I will go out)"},
+        {"purpose": "💪❤️ 🎯 👤🙋 🏋️‍♂️📅 (For health, I exercise daily)"},
+        {"reason": "🛣️❄️ ∴ 👤🙋 🚗🐢 (Because the road is icy, I drive carefully)"}
+      ]
+    },
+    "guidelines": [
+      "Consider cultural differences and choose universally understandable expressions",
+      "Avoid using excessive emojis",
+      "Prioritize importance when combining emojis",
+      "Use country flags to specify cultural context when necessary",
+      "Continuously evaluate new combinations and expressions, adding to the dictionary as necessary"
+    ],
+    "futureConsiderations": [
+      "Develop AI-assisted emoji combination suggestions",
+      "Create educational tools for learning uni-emo",
+      "Establish a community-driven platform for uni-emo development",
+      "Explore integration with existing communication platforms"
+    ],
+    "contribute": "To contribute to uni-emo, please visit our GitHub repository: https://github.com/Dary1/uni-emo"
+  }
+}
